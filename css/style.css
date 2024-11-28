@@ -289,3 +289,8 @@ footer {
     gap: 20px;
     max-width: auto;
 }
+.social-icons .a href {
+    display: flex; 
+    align-items: right; 
+    justify-content: center; 
+}
