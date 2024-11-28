@@ -268,6 +268,8 @@ h2 {
 
 footer {
     background-color: #ffccff;
+    margin: 50px;
+    padding: 50px;
 }
 .contact h2 {
     display: flex;
@@ -289,8 +291,12 @@ footer {
     gap: 20px;
     max-width: auto;
 }
-.social-icons .a href {
-    display: flex; 
-    align-items: right; 
-    justify-content: center; 
+.social-icons i {
+    display: flex;
+    text-align: center;
+    margin-left: 1265px;
+    padding: 10px;
+    gap: 100px;
+    background-color: #fff;
+    border: 2px solid #000;
 }
