@@ -1,0 +1,291 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.chat-button {
+    background-color: #ffccff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 5px outset #000;
+    margin-right: 80px;
+}
+
+.main {
+    display: flex;
+}
+
+.hero {
+    text-align: left;
+    padding: 50px 50px;
+    background-color: #ff0;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #000;
+    margin-right: 800px;
+    margin-left: 50px;
+}
+.photo {
+    text-align: right;
+}
+.photo img {
+    width: 300px;
+    border-radius: 0%;
+    margin-left: 1050px;
+    margin-top: -300px;
+    display: flex;
+    border: 5px solid #000;
+}
+
+.buttons {
+    margin-top: -150px;
+    margin-left: 50px;
+    display: flex;
+    align-items: start;
+}
+
+.hire-me, .projects {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hire-me {
+    background-color: #ffccff;
+    margin-right: 10px;
+    border: 5px outset #000;
+}
+
+.projects {
+    background-color: #ff0;
+    border: 5px outset #000;
+}
+
+.social-media i {
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    gap: 100px;
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px auto;
+}
+
+.services {
+    font-size: xx-large;
+    color: #000;
+    background-color: #ffccff;
+    border: 5px solid #000;
+    width: auto;
+    margin: 100px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    color: #333;
+    text-align: center;
+}
+
+.services .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    padding: 50px;
+    width: auto;
+}
+
+.profile-photo {
+    text-align: center;
+    width: 340px;
+    height: 605px;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #000;
+    margin: 100px;
+}
+.profile {
+    text-align: right;
+}
+
+.profile .description {
+    color: #4a90e2;
+    font-size: 50px;
+    text-align: left;
+    justify-content: left;
+    margin: -400px 100px 0px 500px;
+    margin-left: 500px;
+}
+.profile .details {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    color: #666;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+.profile .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+.profile .stats div {
+    text-align: center;
+}
+.profile .stats div span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-proyects{
+    background-color: rgb(255, 207, 206);
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(3, 2fr);
+    gap: 5px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+}
+
+.project {
+    border: 5px solid #000;
+    margin: 5px 50px 5px 50px;
+}
+.proyect h2 p{
+    text-align: center;
+    border: none;
+
+}
+
+.project img {
+    width: 600px;
+}
+
+.about-me {
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    width: auto;
+}
+
+.testimonial {
+    background-color: #ffe6e6;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 50px;
+    gap: 20px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.testimonial .text {
+    max-width: 450px;
+}
+.testimonial .text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.testimonial .text .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+.testimonial .text .title {
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #ffccff;
+}
+.contact h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    margin-top: auto;
+}
+
+.contact-grid {
+    font-size: 40px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin: 50px;
+    padding: 50px;
+    gap: 20px;
+    max-width: auto;
+}
